@@ -129,17 +129,25 @@ body {
 }
 
 .composer button {
+  width: 48px;
   height: 48px;
-  padding: 0 20px;
+  flex: 0 0 48px;
+  padding: 0;
 
   border: 0;
-  border-radius: 10px;
+  border-radius: 50%;
 
   background: var(--accent);
-  color: #102116;
+  color: #ffffff;
 
-  font-size: 16px;
-  font-weight: 700;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 1;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
   cursor: pointer;
 }
 
@@ -197,9 +205,5 @@ body {
 
   .composer {
     flex-direction: column;
-  }
-
-  .composer button {
-    width: 100%;
   }
 }
