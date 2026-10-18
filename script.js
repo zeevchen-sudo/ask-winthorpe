@@ -6,9 +6,7 @@ async function ask(question){
   add('user',question); input.value=''; send.disabled=true;
   const waiting=add('assistant','Thinking…');
   try{
-    const endpoint=window.ASK_WINTHORPE_API;
-    if(!endpoint||endpoint.includes('YOUR-BACKEND'))throw new Error('Backend URL has not been configured yet.');
-    const r=await fetch(endpoint,{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({question,history})});
+    const r=await fetch('/api/chat',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({question,history})});
     const data=await r.json(); if(!r.ok)throw new Error(data.error||'Request failed');
     waiting.textContent=data.answer;
     history.push({role:'user',content:question},{role:'assistant',content:data.answer});
