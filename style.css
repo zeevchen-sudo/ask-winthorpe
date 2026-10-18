@@ -54,3 +54,13 @@
 .note a:hover {
   color: var(--accent);
 }
+.brand {
+  margin-bottom: 16px;
+  text-align: left;
+}
+
+.brand img {
+  display: block;
+  width: auto;
+  height: 32px;
+}
