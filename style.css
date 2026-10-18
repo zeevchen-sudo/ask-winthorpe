@@ -73,7 +73,7 @@ body {
   font-size: 13px;
   line-height: 1.0;
   text-align: left;
-  white-space: normal;
+  white-space: pre-wrap;
 }
 
 .assistant {
