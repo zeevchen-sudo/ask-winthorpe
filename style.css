@@ -158,15 +158,14 @@ body {
   display: block;
 }
 
-.composer button:hover {
+.composer button:not(:disabled):hover {
   background: var(--accent-hover);
 }
 
 .composer button:disabled {
-  opacity: 0.55;
-  cursor: wait;
+  opacity: 0.3;
+  cursor: default;
 }
-
 
 /* Architecture reference */
 
