@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Ask Winthorpe</title>
+  <meta name="description" content="Ask questions about the Agent Winthorpe architecture.">
+  <link rel="stylesheet" href="style.css?v=1">
+</head>
+<body>
+  <main class="shell">
+    <header>
+      <div class="eyebrow">AGENT WINTHORPE</div>
+      <h1>Ask Winthorpe</h1>
+      <p>Explore how Winthorpe gives AI bounded execution authority for financial processes.</p>
+    </header>
+
+    <section class="starters" aria-label="Suggested questions">
+      <button type="button">Explain the architecture in 60 seconds.</button>
+      <button type="button">How can AI build a flow without arbitrary execution authority?</button>
+      <button type="button">What stops an AI from bypassing a required step?</button>
+      <button type="button">How is this different from a workflow engine?</button>
+    </section>
+
+    <section id="chat" class="chat" aria-live="polite"></section>
+
+    <form id="form" class="composer">
+      <label class="sr-only" for="question">Ask about Winthorpe</label>
+      <textarea id="question" rows="2" maxlength="1500" placeholder="Ask a question about the architecture…" required></textarea>
+      <button id="send" type="submit">Ask →</button>
+    </form>
+    <p class="note">Answers are generated from Winthorpe's architecture reference. Product status is not inferred where the reference is silent.</p>
+  </main>
+  <script src="config.js"></script>
+  <script src="script.js?v=1"></script>
+</body>
+</html>
