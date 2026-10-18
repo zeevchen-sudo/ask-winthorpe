@@ -151,6 +151,13 @@ body {
   cursor: pointer;
 }
 
+.composer button img {
+  width: 18px;
+  height: 18px;
+  object-fit: contain;
+  display: block;
+}
+
 .composer button:hover {
   background: var(--accent-hover);
 }
