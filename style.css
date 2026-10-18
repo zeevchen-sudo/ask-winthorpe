@@ -109,19 +109,13 @@ body {
 
 .composer input {
   flex: 1;
-  height: 42px;
-  min-height: 42px;
-  max-height: 42px;
-  resize: none;
-
+  height: 44px;
   background: var(--panel);
   color: var(--text);
-  border: 0.5px solid var(--line);
+  border: 1px solid var(--line);
   border-radius: 10px;
-
   padding: 0 14px;
-  line-height: 42px;
-  font: 16px/1.4 Arial, Helvetica, sans-serif;
+  font: 16px Arial, Helvetica, sans-serif;
 }
 
 .composer input:focus {
