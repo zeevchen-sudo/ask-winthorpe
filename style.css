@@ -44,8 +44,6 @@ body {
 
 /* Conversation */
 
-/* Conversation */
-
 .chat {
   display: flex;
   flex-direction: column;
@@ -61,8 +59,6 @@ body {
 }
 
 .message {
-  width: 100%;
-  max-width: 100%;
   padding: 0;
   font-size: 13px;
   line-height: 1.4;
@@ -71,6 +67,9 @@ body {
 }
 
 .assistant {
+  align-self: flex-start;
+  width: 100%;
+  max-width: 100%;
   background: transparent;
   border: none;
 }
@@ -88,30 +87,6 @@ body {
 
   font-weight: 400;
   text-align: left;
-}
-}
-
-.message {
-  padding: 0;
-  font-size: 13px;
-  line-height: 1.4;
-  text-align: left;
-  white-space: normal;
-}
-
-.assistant {
-  align-self: flex-start;
-  width: 100%;
-  max-width: 100%;
-  background: transparent;
-  border: none;
-}
-
-.user {
-  align-self: flex-start;
-  background: transparent;
-  border: none;
-  font-weight: 600;
 }
 
 
@@ -157,6 +132,10 @@ body {
   font-size: 16px;
   font-weight: 700;
   cursor: pointer;
+}
+
+.composer button:hover {
+  background: var(--accent-hover);
 }
 
 .composer button:disabled {
@@ -214,9 +193,4 @@ body {
   .composer button {
     width: 100%;
   }
-  
-.composer button:hover {
-  background: var(--accent-hover);
-}
-  
 }
