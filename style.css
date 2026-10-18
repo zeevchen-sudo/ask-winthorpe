@@ -61,7 +61,7 @@ body {
   padding: 20px;
 
   background: var(--panel);
-  border: 1px solid var(--line);
+  border: 0.5px solid var(--line);
   border-radius: 12px;
 
   text-align: left;
