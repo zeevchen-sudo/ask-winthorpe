@@ -17,3 +17,9 @@ async function ask(question){
 form.addEventListener('submit',e=>{e.preventDefault();ask(input.value)});
 document.querySelectorAll('.starters button').forEach(b=>b.addEventListener('click',()=>ask(b.textContent)));
 input.addEventListener('keydown',e=>{if(e.key==='Enter'&&!e.shiftKey){e.preventDefault();form.requestSubmit()}});
+function updateSendButton() {
+  send.disabled = !input.value.trim();
+}
+
+input.addEventListener('input', updateSendButton);
+updateSendButton();
