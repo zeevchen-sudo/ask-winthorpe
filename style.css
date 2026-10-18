@@ -71,7 +71,7 @@ body {
 .message {
   padding: 0;
   font-size: 13px;
-  line-height: 1.0;
+  line-height: 1.4;
   text-align: left;
   white-space: pre-wrap;
 }
@@ -141,7 +141,7 @@ body {
 
   font-size: 24px;
   font-weight: 400;
-  line-height: 1;
+  line-height: 1.4;
 
   display: flex;
   align-items: center;
@@ -171,7 +171,7 @@ body {
 .note {
   margin-top: 10px;
   font-size: 12px;
-  line-height: 1.5;
+  line-height: 1.4;
   color: #7f8891;
 }
 
