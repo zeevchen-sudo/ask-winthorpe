@@ -109,9 +109,9 @@ body {
 
 .composer textarea {
   flex: 1;
-  height: 48px;
-  min-height: 48px;
-  max-height: 48px;
+  height: 40px;
+  min-height: 40px;
+  max-height: 40px;
   resize: none;
 
   background: var(--panel);
@@ -129,9 +129,9 @@ body {
 }
 
 .composer button {
-  width: 48px;
-  height: 48px;
-  flex: 0 0 48px;
+  width: 40px;
+  height: 40px;
+  flex: 0 0 40px;
   padding: 0;
 
   border: 0;
