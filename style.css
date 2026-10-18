@@ -15,15 +15,20 @@
 
 body {
   margin: 0;
+  min-height: 100vh;
   background: var(--bg);
   color: var(--text);
   font-family: Arial, Helvetica, sans-serif;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .shell {
   width: min(860px, calc(100% - 36px));
   margin: 0 auto;
-  padding: 56px 0 36px;
+  padding: 36px 0;
 }
 
 
