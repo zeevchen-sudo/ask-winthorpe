@@ -26,7 +26,7 @@ body {
 }
 
 .shell {
-  width: min(860px, calc(100% - 36px));
+  width: min(640px, calc(100% - 36px));
   margin: 0 auto;
   padding: 36px 0;
 }
@@ -54,7 +54,7 @@ body {
   flex-direction: column;
   gap: 14px;
 
-  height: 360px;
+  height: 240px;
   overflow-y: auto;
 
   margin: 18px 0;
