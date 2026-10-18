@@ -206,4 +206,12 @@ body {
   .composer {
     flex-direction: column;
   }
+  
+.composer button img {
+  width: 20px;
+  height: 20px;
+  object-fit: contain;
+  display: block;
+}
+  
 }
