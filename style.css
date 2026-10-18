@@ -107,7 +107,7 @@ body {
   align-items: stretch;
 }
 
-.composer textarea {
+.composer input {
   flex: 1;
   height: 42px;
   min-height: 42px;
@@ -124,7 +124,7 @@ body {
   font: 16px/1.4 Arial, Helvetica, sans-serif;
 }
 
-.composer textarea:focus {
+.composer input:focus {
   outline: none;
   border-color: var(--line);
 }
