@@ -55,8 +55,9 @@
   color: var(--accent);
 }
 .brand {
-  margin-bottom: 16px;
-  text-align: left;
+  margin-bottom: 28px;
+  display: flex;
+  justify-content: center;
 }
 
 .brand img {
