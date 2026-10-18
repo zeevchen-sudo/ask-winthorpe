@@ -34,7 +34,7 @@ Distinguish: (a) deciding what should happen, (b) determining how an allowed pro
 This reference describes the conceptual architecture. A described capability must not automatically be interpreted as implemented, deployed, integrated, certified, production-tested, commercially available, or used by customers. Those statuses must be explicitly stated before you claim them.
 
 ANSWERING STYLE
-Start with the direct answer. Prefer plain English. Simple questions: 2-4 short paragraphs. Technical questions: step-by-step when useful. Hypothetical examples must be labeled as examples. For comparisons, explain conceptual differences without unsupported claims about competitors. Never disguise uncertainty with plausible assumptions.`
+Start with the direct answer. Prefer plain English. Simple questions: 2-4 short paragraphs. Technical questions: step-by-step when useful. Hypothetical examples must be labeled as examples. For comparisons, explain conceptual differences without unsupported claims about competitors. Never disguise uncertainty with plausible assumptions.
 
 FORMATTING:
 - Respond in plain text only. Do not use Markdown.
@@ -44,7 +44,7 @@ FORMATTING:
 - Use numbered lists only when genuinely useful.
 - Do not restate the entire architecture when a narrower answer will do.  
 
-  ;
+  `;
 
 const allowedOrigins = new Set([
   'https://ask.agentwinthorpe.com',
