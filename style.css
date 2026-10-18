@@ -30,3 +30,18 @@
   line-height: 1.4 !important;
   padding: 20px !important;
 }
+.composer {
+  border-top: none;
+  padding-top: 0;
+}
+
+.composer textarea {
+  min-height: 48px;
+  height: 48px;
+  resize: none;
+  padding: 13px 14px;
+}
+
+.composer button {
+  height: 48px;
+}
