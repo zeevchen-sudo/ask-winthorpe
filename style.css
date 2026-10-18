@@ -45,3 +45,12 @@
 .composer button {
   height: 48px;
 }
+.note a {
+  color: inherit;
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+
+.note a:hover {
+  color: var(--accent);
+}
