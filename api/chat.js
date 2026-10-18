@@ -38,6 +38,7 @@ Start with the direct answer. Prefer plain English. Simple questions: 2-4 short 
 
 const allowedOrigins = new Set([
   'https://ask.agentwinthorpe.com',
+  'https://ask-winthorpe.vercel.app',
   'https://deck.agentwinthorpe.com',
   'http://localhost:8000',
   'http://127.0.0.1:8000'
